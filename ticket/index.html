@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ticket-page</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="shortcut icon" href="images/Karcis.com.png" type="image/x-icon">
+</head>
+<div class="nav">
+    <h1 class="logo">Karis.com</h1>
+
+    <div>
+        <ul>
+            <li>Concert</li>
+            <li>Arts</li>
+            <li>Conference</li>
+            <li>Movies</li>
+            <li>International</li>
+        </ul>
+    </div>
+    <div class="btnico">
+    <div >
+        <button>Log Out</button>
+        </div>
+        <div class="img">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="8" r="4" fill="#4F4CEE" stroke="#4F4CEE" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M16 17.3335C13.3333 17.3335 6.66665 18.6668 5.33331 22.6668C6.66665 26.6668 12 28.0002 16 28.0002C20 28.0002 25.3333 26.6668 26.6666 22.6668C25.3333 18.6668 18.6666 17.3335 16 17.3335Z" fill="#4F4CEE" stroke="#4F4CEE" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+    </div>
+    </div>
+</div>
+<div class="backIcon">
+    <a href="../buyTicket/buyTicket .html"><img src="images/Button.png" alt="" ></a>
+    <h3 id="text">Ticket Option</h3>
+</div>
+<main>
+    <div class="firstMain">
+        <img src="images/image 3.png" alt="">
+    </div>
+    <div >
+        <h2>Drive In Senja: Back to the Future</h2>
+        <img src="images/calender.png" alt=""> <h4 class="first_h4">September 22, 2021 · 20.00 - 21.56 WIB</h4><br>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M18 9.54545C18 16.0909 12 21 12 21C12 21 6 16.0909 6 9.54545C6 6.27273 7.875 3 12 3C16.125 3 18 6.27273 18 9.54545Z" stroke="#1B1B25" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="12" cy="9" r="2" stroke="#1B1B25" stroke-width="2"/>
+            </svg> <h4>Parkiran Utama Mall @ Alam Sutera</h4>
+            <p>Marty travels back in time using an eccentric scientist's <br>time machine. However, he must make his high-school-aged parents fall <br>in love in order to return to the present.</p>
+    </div>
+</main>
+<div class="sortButton">
+    <!-- <h3 class="typewrtingtext">
+        Note: You Can Only Get One Ticket At A Time
+    </h3> -->
+    <div>
+    <button><img src="images/upandDown.png" alt="">Sort By</button>
+</div>
+</div>
+<div class="cardSection">
+<div class="secondMain">
+</div>
+</div>
+<footer>
+    <ul id="footerUl">
+        <li id="numOfTicket">Num of ticket
+            <div id="numberCount"></div>
+        </li>
+        <li id="ticketType">Ticket type
+            <div id="classticket"></div>
+        </li>
+        <li id="ticketType">Total Amount
+            <div id="totalAmount"></div>
+        </li>
+    </ul>
+    <p class="foot">Choose Your Ticket And Quantity </p>
+
+    <button id="footerButton" onclick="buttonAnimation()">Buy Ticket</button>
+</footer>
+<body>
+    <script src="./index.js"></script>
+</body>
+</html>

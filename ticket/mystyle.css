@@ -1,0 +1,184 @@
+
+
+     @import url('https://fonts.cdnfonts.com/css/cabinet-grotesk');
+
+                
+                
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabinet Grotesk', sans-serif;
+                                          
+}
+.nav{
+    display: flex;
+    background-color: #f6f6f6;
+    justify-content: space-around;
+    border-bottom:1px solid lightgray;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    top: 0;
+}
+.logo{
+    color: #4F4CEE;
+    font-family: 'Cabinet Grotesk', sans-serif;
+                                                
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 450px;
+    margin-top: 30px;
+}
+svg{
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color:lightgray ;
+    border-radius: 50%;
+   
+ 
+}
+.nav button{
+    background-color:#4F4CEE ;
+    color: #FFFFFF;
+    font-family: General sans;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right:40px ;
+}
+.btnico{
+    display:flex;
+}
+.backIcon{
+    margin-top: 100px; 
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+   
+}
+.backIcon img{
+    width: 40px;
+}
+#text{
+    font-size: 1.5em;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    border-bottom:1px solid lightgray ;
+   padding-bottom: 50px;
+    width: 88%;
+    margin-left: 90px;
+}
+.firstMain{
+ margin-top: 20px;
+ margin-left: 100px;
+}
+main h4{
+display: inline-block;
+vertical-align:top;
+}
+.first_h4{
+    vertical-align:7px;
+    margin-left: 18px ;
+}
+.typewrtingtext{
+    
+      
+        overflow: hidden;
+        border-right: .15em solid lightgray; 
+        white-space: nowrap; 
+        margin: 0; 
+        color: #4F4CEE;
+        padding: 0; 
+        font-size: 2em; 
+        animation: typing 3s steps(40) ;
+      
+      
+    }
+    
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 50%; }
+    }
+.cardSection{
+    margin-left: 30px;
+}
+.secondFirstCard{
+   width: 250px;
+   /* height: 280px; */
+   border: 1px solid lightgray;
+   display: inline-block;
+   text-align: center;
+   padding: 10px;
+   border-radius: 6px;
+   margin-left: 30px;
+   margin-top: 20px;
+}
+.secondFirstCard p{
+    height: 15vh;
+}
+
+.secondFirstCard:hover{
+  box-shadow:5px 5px 10px #4F4CEE;
+  color: #4F4CEE;
+}
+.secondFirstCard span{
+   margin:0px 10px;
+}
+.secondFirstCard img{
+    background-color: lightgray;
+    border-radius: 50%;
+}
+.sortButton{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 80%;
+}
+.sortButton button{
+vertical-align: bottom;
+margin-top:5px ;
+margin-left:;
+color: #4F4CEE;
+}
+footer{
+    background-color: #4F4CEE;
+    color: white;
+    text-align: center;
+    padding: 15px 10px ;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.foot{
+    display: inline-block;
+   
+}
+footer button{
+  margin-left:  400px;
+  padding: 10px 15px;
+  border-style: outset;
+  border-color: lightgray;
+  border-radius: 6px;
+  font-size: 15px;
+  color: #4F4CEE;
+  box-shadow: 3px 3px 3px lightgray;
+  display: none;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  footer ul{
+    display: none;
+    list-style: none;
+  }
+  footer li{
+    margin-left: 50px;
+  }
