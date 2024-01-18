@@ -1,6 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/cabinet-grotesk');
 body,button,input{
     font-family: 'Cabinet Grotesk', sans-serif; 
+    margin: 0px;
     
 }
 .bodyOpacity{
@@ -156,6 +157,28 @@ h4{
     width: 73%;
     margin-left: 195px;
 }
+.Terms{
+    border: 1px solid;
+    width: 73%;
+    margin-left: 195px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.Terms img{
+   margin-left: 90%;
+   border: 1px solid;
+   left: 2px;
+   position: absolute;
+}
+.click{
+  
+    padding: 10px;
+}
+#condition{
+    display: none;
+}
+
 footer{
     background-color: #4F4CEE;
     color: #FFFFFF;
@@ -170,7 +193,9 @@ footer a{
 }
 .mainFooter{
     display: flex;
-    justify-content: space-around;
+    gap: 50px;
+    justify-content: center;
+    /* justify-content: space-around; */
 }
 .mainFooter ul{
  list-style: none;

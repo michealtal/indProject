@@ -11,11 +11,6 @@ closeButton.addEventListener("click",function () {
 })
 
 
-//  let logedIn = document.querySelector("#continue");
-//  logedIn.addEventListener("click", function () {
-//     document.querySelector(".firstLogInNav").style.display = "none"; 
-//      document.querySelector(".logedInNav").style.display = "flex"  
-// });
 
 let users = document.getElementById('logedInNav')
     users.style.display = "none";
@@ -44,3 +39,12 @@ continueButton.addEventListener('click', function(e) {
 //     let continueButton = document.getElementById('continue');
 //     continueButton.textContent = storedState;
 // }
+let clickButton = document.getElementById("clickButton")
+let condition = document.getElementById("condition")
+clickButton.addEventListener('click',() => {
+ if (condition.style.display === "none") {
+    condition.style.display = "block";
+ }else{
+    condition.style.display = "none" ;
+ }
+})

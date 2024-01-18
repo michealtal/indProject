@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Page</title>
+    <link rel="stylesheet" href="filter.css">
+</head>
+<body>
+    <header> 
+        <h1 class="logo">Karis.com</h1>
+
+        <div class="headerSearch">
+            <input type="text" placeholder="Search">
+            <input type="date" id="secondInput"> <img src="images/Icons.png"  id="arrow">
+            <input type="date" id="thirdInput"> <img src="images/search.png" alt="searchbutton">
+        </div>
+        <!-- first one  -->
+        <div class="btnico">
+        <div class="firstLogedInNav" id="form-button">
+            <div class="login">
+            <button id="btn1">Log in</button>
+            </div>
+            <div class="img">
+            <button>Sign Up</button>
+            </div>
+        </div>
+        <!-- i want to see where this end  -->
+        </div>
+    </header>
+    <nav>
+        <h2>Filter</h2>
+        <div>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+              <span id="toggleSpan">ONLINE</span>
+              <hr>
+        </div>
+        <div class="toogleAnswer" onclick="toogleSWitch ('answer1')" >
+            <h3><span>Location</span> <img src="images/down v.png" alt="" ></h3>
+            <div id="answer1" style="display: none;">
+                <ul>
+                    <li>
+                        <input type="checkbox" name="filteranswer" id="">
+                        <label for="filteranswer">International</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="filteranswer" id="">
+                        <label for="filteranswer">Jakarta Selatan</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="filteranswer" id="">
+                        <label for="filteranswer">Jakarta Timur</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="filteranswer" id="">
+                        <label for="filteranswer">Tangerang Selatan</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="filteranswer" id="">
+                        <label for="filteranswer">Jabodetabek</label>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="toogleAnswer" onclick="toogleSWitch ('answer2')">
+            <h3><span>Categories</span> <img src="images/down v.png" alt="" ></h3>
+            <div id="answer2" style="display: none;">
+            <ul>
+                <li>
+                    <input type="checkbox" name="secondanswer" id="">
+                    <label for="categoriesanswer">Concert</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="secondanswer" id="">
+                    <label for="categoriesanswer">Arts</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="secondanswer" id="">
+                    <label for="categoriesanswer">Confrence</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="secondanswer" id="">
+                    <label for="categoriesanswer">Movies</label>
+                </li>
+            </ul>
+            </div> 
+        </div>
+        <div data-name="" class="toogleAnswer" onclick="toogleSWitch ('answer3')">
+            <h3><span>Price</span> <img src="images/down v.png" alt="" ></h2>
+            <h3 id="answer3" style="display: none;">RP 100.000 - RP600,000</h3>
+        </div>
+    </nav>
+    <main>
+        <div class="maincontainer">
+          <div class="ticketCard">
+           <div><img src="images/firstmovie.png" alt=""></div>
+           <div class="textarea">
+            <h3 class="moviestext">Movies : Drive in</h3>
+            <div class="flextext">
+              <div class="datenum">
+                 Sep <br>20
+              </div>
+              <div class="date">
+                <h3 >Skylight Cinema: Bad Mo..</h3>
+                <p>Rp. 300.000 - 550.000</p>
+                <p><img src="images/locationon.png" alt=""> Senayan Park</p>
+              
+            </div>
+            </div>
+           </div>
+           <!-- ending -->
+          </div>
+          <div class="ticketCard">
+           <div><a href="../buyTicket/buyTicket .html"><img src="images/secondmovie.png" alt=""></a></div>
+           <div class="textarea">
+            <h3 class="moviestext">Movies : Drive in</h3>
+            <div class="flextext">
+              <div class="datenum">
+                 Sep <br>20
+              </div>
+              <div class="date">
+                <h3 >Skylight Cinema: Bad Mo..</h3>
+                <p>Rp. 300.000 - 550.000</p>
+                <p><img src="images/locationon.png" alt=""> Senayan Park</p>
+              
+            </div>
+            </div>
+           </div>
+           <!-- ending -->
+          </div>
+           <div class="ticketCard">
+           <div><img src="images/thirdmovie.png" alt=""></div>
+           <div class="textarea">
+            <h3 class="moviestext">Movies : Drive in</h3>
+            <div class="flextext">
+              <div class="datenum">
+                 Sep <br>20
+              </div>
+              <div class="date">
+                <h3 >Skylight Cinema: Bad Mo..</h3>
+                <p>Rp. 300.000 - 550.000</p>
+                <p><img src="images/locationon.png" alt=""> Senayan Park</p>
+              
+            </div>
+            </div>
+           </div>
+            
+          </div>
+           <div class="ticketCard">
+           <div><img src="images/fourthmovie.png" alt=""></div>
+           <div class="textarea">
+            <h3 class="moviestext">Movies : Drive in</h3>
+            <div class="flextext">
+              <div class="datenum">
+                 Sep <br>20
+              </div>
+              <div class="date">
+                <h3 >Skylight Cinema: Bad Mo..</h3>
+                <p>Rp. 300.000 - 550.000</p>
+                <p><img src="images/locationon.png" alt=""> Senayan Park</p>
+              
+            </div>
+            </div>
+           </div>
+            
+          </div>
+           <div class="ticketCard">
+           <div><img src="images/fifth.png" alt=""></div>
+           <div class="textarea">
+            <h3 class="moviestext">Movies : Drive in</h3>
+            <div class="flextext">
+              <div class="datenum">
+                 Sep <br>20
+              </div>
+              <div class="date">
+                <h3 >Skylight Cinema: Bad Mo..</h3>
+                <p>Rp. 300.000 - 550.000</p>
+                <p><img src="images/locationon.png" alt=""> Senayan Park</p>
+              
+            </div>
+            </div>
+           </div>
+            
+          </div>
+           <div class="ticketCard">
+           <div><img src="images/sixthmovie.png" alt=""></div>
+           <div class="textarea">
+            <h3 class="moviestext">Movies : Drive in</h3>
+            <div class="flextext">
+              <div class="datenum">
+                 Sep <br>20
+              </div>
+              <div class="date">
+                <h3 >Skylight Cinema: Bad Mo..</h3>
+                <p>Rp. 300.000 - 550.000</p>
+                <p><img src="images/locationon.png" alt=""> Senayan Park</p>
+              
+            </div>
+            </div>
+           </div>
+            
+          </div>
+         
+          <!-- under -->
+        </div>
+    </main>
+    <footer> 
+        <div class="mainFooter">
+          <h2>Karcis.com</h2>
+          <div>
+              <ul>
+                  <li><h3>About</h3></li>
+                  <li><a href="#">About Karcis.com</a></li>
+                  <li><a href="#">How it works</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Press</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Forum</a></li>
+              </ul>
+          </div>
+          <div>
+              <ul>
+                  <li><h3>Partner with us</h3></li>
+                  <li><a href="#">Partnership programs</a></li>
+                  <li><a href="#">Affiliate program</a></li>
+                  <li><a href="#">Connectivity partners</a></li>
+                  <li><a href="#">Promotions and events</a></li>
+                  <li><a href="#">Integrations</a></li>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Loyalty program</a></li>
+              </ul>
+          </div>
+          <div>
+              <ul>
+                  <li><h3>Support</h3></li>
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Privacy policy</a></li>
+                  <li><a href="#">Terms of service</a></li>
+                  <li><a href="#">Trust and safety</a></li>
+                  <li><a href="#">Accessibility</a></li>
+                  
+              </ul>
+          </div>
+          <div>
+              <ul>
+                  <li><h3>Get the app</h3></li>
+                  <li><a href="#">Karcis.com for Android</a></li>
+                  <li><a href="#">Karcis.com for iOS</a></li>
+                  <li><a href="#">Mobile site</a></li>  
+                  <li><img src="../buyTicket/images/app store.png" alt=""></li>
+                  <li><img src="../buyTicket/images/google play.png" alt=""></li>
+              </ul>
+          </div>
+  
+        </div>
+  
+        <div class="secondFooter">
+            <div>
+              <ul>
+                  <li><img src="../buyTicket/images/whitetwitter.png" alt=""/></li>
+                  <li><img src="../buyTicket/images/whiteig.png" alt=""/></li>
+                  <li><img src="../buyTicket/images/whiteface.png" alt=""/></li>
+              </ul>
+            </div>
+  
+            <div>
+              <p>© 2020 Karcis incorporated</p>
+            </div>
+        </div>
+     </footer>
+  
+
+    <script src="filter.js"></script>
+</body>
+</html>
