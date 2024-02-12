@@ -150,8 +150,5 @@ function buttonAnimation() {
     myClick.classList.add("pressed");
     setTimeout(function () {
       myClick.classList.remove("pressed");
-    }, 100);
-    setTimeout(function () {
-      alert("congratulation you have successfully gotten ticket");
-    }, 200);
+    }, 100)
   }

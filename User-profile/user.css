@@ -1,0 +1,399 @@
+@import url('https://fonts.cdnfonts.com/css/cabinet-grotesk');
+nav{display: flex;
+    background-color: #f6f6f6;
+    justify-content: space-around;
+    border-bottom:1px solid lightgray;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    }
+    .logo{
+    color: #4F4CEE;
+    font-family: 'Cabinet Grotesk', sans-serif;
+                                                
+    }
+    nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 450px;
+    margin-top: 30px;
+    }
+    .img button{
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color:#4F4CEE ;
+    color: #FFFFFF;
+    border-radius: 8px;
+    
+    
+    }
+    nav button{
+    background-color:#FFFFFF ;
+    color: #4F4CEE;
+    padding: 10px 15px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right:40px ;
+    }
+    .icon i{
+        font-size: 30px;
+     }
+     .icon {
+     height: 40px;
+     margin-top: 20px;
+     display: none;
+     }
+    #carddrop{
+        position: absolute;
+        top: 70px;
+        background-color: black;
+        text-align: center;
+        display: none;
+    }
+    #carddrop li{
+       list-style: none;
+       color: white;
+       margin-right: 30px;
+       margin-bottom: 10px;
+       
+    }
+    
+    .btnico{
+        display:flex;
+    }
+    svg{
+        margin-right: 20px;
+        margin-top: 20px;
+        background-color:lightgray ;
+        border-radius: 50%;
+       
+     
+    }
+    #logedInNav{
+        display: flex;
+    }
+    .firstLogedInNav{
+      display: flex;
+      /* border: 1px solid; */
+    }
+    .backIcon{
+        margin-top: 100px; 
+        margin-left: 110px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+       
+    }
+    .backIcon img{
+        width: 40px;
+    }
+    #text{
+        font-size: 1.5em;
+    }
+    main{
+        display: flex;
+        margin-left: 180px;
+        width: 85%;
+        flex-wrap: wrap;
+    }
+    form{
+        
+    }
+    .notice{
+        color: #4F4CEE;
+        background-color: #f6f6f6;
+        /* padding: 5px; */
+        box-sizing: border-box;
+
+    }
+    .form-div{
+        display: inline-block;
+    }
+    form input{
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 200px;
+        border-color: lightgray;
+        border-radius:10px;
+        padding: 10px 15px;
+        margin-bottom: 30px;
+    }
+    form label{
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    form button{
+        margin-left:350px;
+        color: white;
+        padding: 10px 15px;
+        opacity: 0.7;
+    }
+    form button:hover{
+        color: white;
+        opacity: 1;
+        background-color: #4F4CEE;
+    }
+    #right{
+        border-left: 1px solid lightgray;
+        padding-left:10px;
+    }
+    .ticket-details{
+        border-bottom: 1px solid;
+        border-bottom-style: dashed;
+       
+    }
+    .flex-details{
+        display: flex;
+        padding-top: 10px;
+        margin-bottom: 5px;
+        justify-content: space-between;
+    }
+   .dot{
+      margin-top: 10px;
+    height:15px;
+   }
+    .senja{
+        width: 200px;
+        display: inline-block;
+        vertical-align: top;
+    }
+   .span{
+    display: inline-block;
+
+    }
+   .span p{
+     margin: 0px;
+    }
+
+    @media screen and (max-width:320px) {
+        nav button{
+            margin-right: 15px;
+            padding: 9px 11px ;
+        }
+        .icon i{
+            font-size: 30px;
+         }
+         .icon {
+         display: block;
+         }
+        #carddrop{
+            position: absolute;
+            top: 70px;
+            background-color: black;
+            text-align: center;
+            display: none;
+        }
+        #carddrop li{
+           list-style: none;
+           color: white;
+           margin-right: 30px;
+           margin-bottom: 10px;
+        
+    }
+    nav ul{
+        display: none;
+    }
+    .backIcon{
+        margin-top: 100px; 
+        width: 200px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        gap: 20px;
+       
+    }
+    .backIcon img{
+        width: 30px;
+    }
+    #text{
+        font-size: 1em;
+    }
+    main{
+        display: flex;
+        width: 75%;
+        margin-left: 40px;
+        flex-wrap: wrap;
+        padding: 0px;
+
+    }
+    .bta{
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .bca{
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        margin-bottom: 15px;
+        width: 200px;
+     
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+   form button{
+        margin-left:100px;
+        color: white;
+        padding: 10px 15px;
+        opacity: 0.7;
+    }
+   /* #right button:hover{
+        color: white;
+        opacity: 1;
+        background-color: #4F4CEE;
+    } */
+    .ticket-details{
+        border-bottom: 1px solid;
+        border-bottom-style: dashed;
+        width: 250px;
+       
+    }
+    .flex-details{
+        display: flex;
+        width: 239px;
+        padding-top: 10px;
+        margin-bottom: 5px;
+        justify-content: space-between;
+    }
+}
+    @media screen and (max-width:375px) {
+        nav button{
+            margin-right: 15px;
+            padding: 9px 11px ;
+        }
+        .icon i{
+            font-size: 30px;
+         }
+         .icon {
+         display: block;
+         }
+        #carddrop{
+            position: absolute;
+            top: 70px;
+            background-color: black;
+            text-align: center;
+            display: none;
+        }
+        #carddrop li{
+           list-style: none;
+           color: white;
+           margin-right: 30px;
+           margin-bottom: 10px;
+        
+    }
+    nav ul{
+        display: none;
+    }
+    .backIcon{
+        margin-top: 100px; 
+        width: 200px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        gap: 20px;
+       
+    }
+    .backIcon img{
+        width: 30px;
+    }
+    #text{
+        font-size: 1em;
+    }
+    main{
+        display: flex;
+        width: 75%;
+        margin-left: 40px;
+        flex-wrap: wrap;
+        padding: 0px;
+
+    }
+    .bta{
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .bca{
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        display: flex;
+
+        justify-content: space-between;
+        padding: 10px;
+        margin-bottom: 15px;
+        width: 250px;
+     
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    form button{
+        margin-left:100px;
+        color: white;
+        padding: 10px 15px;
+        opacity: 0.7;
+    }
+   /* #right button:hover{
+        color: white;
+        opacity: 1;
+        background-color: #4F4CEE;
+    } */
+    .ticket-details{
+        border-bottom: 1px solid;
+        border-bottom-style: dashed;
+        width: 250px;
+       
+    }
+    .flex-details{
+        display: flex;
+        width: 239px;
+        padding-top: 10px;
+        margin-bottom: 5px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .icon i{
+        font-size: 30px;
+     }
+     .icon {
+     display: block;
+     }
+    #carddrop{
+        position: absolute;
+        top: 70px;
+        background-color: black;
+        text-align: center;
+        display: none;
+    }
+    nav ul{
+        display: none;
+    }
+    .bca{
+        width: 350px;
+    }
+    main{
+        margin-left: 70px;
+    }
+    .backIcon{
+        margin-left: 30px;
+    }
+    form button{
+        margin-left:100px;
+        color: white;
+        padding: 10px 15px;
+        opacity: 0.7;
+    }
+
+}
